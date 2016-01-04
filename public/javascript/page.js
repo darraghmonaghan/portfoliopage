@@ -3,7 +3,7 @@
 $(document).ready(function() {
 
 		function changeICaddy() {
-					$('#portfolioImg').attr('src', './images/iCaddy.png');
+					$('#portfolioImg').attr('src', '/static/images/iCaddy.png');
 					$('#clickImg').attr('href', 'https://gentle-basin-8593.herokuapp.com/');
 					$('#projectTitle').text('iCaddy');
 					$('#projectContent').text('An application born out of my love for the game of golf. iCaddy is a free platform that provides recreational golfers with a score tracking platform that automatically runs analytics on their performances, providing a base from which to improve their game.');
@@ -15,7 +15,7 @@ $(document).ready(function() {
 		}
 
 		function changeEncore() {
-					$('#portfolioImg').attr('src', './images/Encore.png');
+					$('#portfolioImg').attr('src', '/static/images/Encore.png');
 					$('#clickImg').attr('href', 'https://whispering-ridge-5278.herokuapp.com/');
 					$('#projectTitle').text('Encore');
 					$('#projectContent').text('Encore was created with 4 friends, with the purpose of making hosting an event easier, by providing a single destination from which to browse all the musical and artistic performers available for hire in their local area.');
@@ -27,7 +27,7 @@ $(document).ready(function() {
 		}
 
 		function changeQuora() {
-				$('#portfolioImg').attr('src', './images/quoraForDummies.png');
+				$('#portfolioImg').attr('src', '/static/images/quoraForDummies.png');
 				$('#clickImg').attr('href', 'https://calm-reef-1444.herokuapp.com/');
 				$('#projectTitle').text('Quora For Dummies');
 				$('#projectContent').text('Initially inspired by the hit Q&A platform, Quora, Quora For Dummies was created in order to provide a platform for questions that only require a more simplistic answer. Through providing respondents with a finite number of options on which they can vote, Quora For Dummies provides a great pulse check on whatever is on your mind!');
@@ -39,7 +39,7 @@ $(document).ready(function() {
 		}
 
 		function changeRentalFind() {
-				$('#portfolioImg').attr('src', './images/rentalFind.png');
+				$('#portfolioImg').attr('src', '/static/images/rentalFind.png');
 				$('#clickImg').attr('href', '');
 				$('#projectTitle').text('Rental Find');
 				$('#projectContent').text('Rental Find was developed as part of a 4 person team, over a 36 hour period, during a hackathon hosted by The Zillow Group; which granted access to their New Listing and Public Records API. Rental Find was created in order to help streamline the process of finding investment properties, helping to tune out the noise during the search process, and help individuals find cashflow positive properties.');
