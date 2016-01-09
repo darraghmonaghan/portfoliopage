@@ -50,6 +50,20 @@ $(document).ready(function() {
 				$('#techStack').text('Ruby on Rails, JavaScript, HTML5, CSS3, JQuery, BootStrap, Zillow API, Retsly API');		
 		}
 
+		function changeWeatherApp() {
+				$('#portfolioImg').attr('src', '/static/images/weatherApp.png');
+				$('#clickImg').attr('href', 'https://shielded-plateau-3141.herokuapp.com/');
+				$('#projectTitle').text('weatherApp');
+				$('#projectContent').text('An app that takes advantage of the free OpenWeatherMap API in order to provide a city specific weather search.');
+				$('#gitHub').text('darraghmonaghan/weatherApp');
+				$('#gitHub').attr('href', 'https://github.com/darraghmonaghan/weatherApp');
+				$('#heroku').text('shielded-plateau-3141');
+				$('#heroku').attr('href', 'https://shielded-plateau-3141.herokuapp.com/');
+				$('#techStack').text('Ruby on Rails, Twitter Bootstrap, HTTParty Gem and the Openweathermap.org API');		
+		}
+
+
+
 		console.log('JQuery ready....');
 
 
@@ -71,6 +85,11 @@ $(document).ready(function() {
 		// project 4 - Rental Find //
 		$('#portfolio4').hover(changeRentalFind);
 		$('#portfolio4').click(changeRentalFind);
+
+		// project 5 - weatherApp //
+		$('#portfolio5').hover(changeWeatherApp);
+		$('#portfolio5').click(changeWeatherApp);
+
 
 });
 
