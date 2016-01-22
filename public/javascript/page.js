@@ -66,30 +66,20 @@ $(document).ready(function() {
 
 		console.log('JQuery ready....');
 
-
 		// project 1 - iCaddy //						
-		$('#portfolio1').click(changeICaddy);
 		$('#portfolio1').hover(changeICaddy);
-
 
 		// project 2 - ENCORE //
 		$('#portfolio2').hover(changeEncore);
-		$('#portfolio2').click(changeEncore);
-
 
 		// project 3 - Quora for Dummies //
-		$('#portfolio3').hover(changeQuora);
-		$('#portfolio3').click(changeQuora);		
-
+		$('#portfolio3').hover(changeQuora);	
 
 		// project 4 - Rental Find //
 		$('#portfolio4').hover(changeRentalFind);
-		$('#portfolio4').click(changeRentalFind);
 
 		// project 5 - weatherApp //
 		$('#portfolio5').hover(changeWeatherApp);
-		$('#portfolio5').click(changeWeatherApp);
-
 
 });
 
