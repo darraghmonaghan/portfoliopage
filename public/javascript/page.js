@@ -62,6 +62,17 @@ $(document).ready(function() {
 				$('#techStack').text('Ruby on Rails, Twitter Bootstrap, HTTParty Gem and the Openweathermap.org API');		
 		}
 
+		function changeElection2016() {
+				$('#portfolioImg').attr('src', '/static/images/election2016.png');
+				$('#clickImg').attr('href', 'http://guarded-beach-51356.herokuapp.com/');
+				$('#projectTitle').text('#Election2016');
+				$('#projectContent').text('The platform allows users to browse what the USA is tweeting about in the run up to the 2016 election, through filtering election related tweets via geographical origin, and displaying them grouped by major city.');
+				$('#gitHub').text('darraghmonaghan/twitterAPI');
+				$('#gitHub').attr('href', 'https://github.com/darraghmonaghan/twitterAPI');
+				$('#heroku').text('guarded-beach-51356');
+				$('#heroku').attr('href', 'https://guarded-beach-51356.herokuapp.com/');
+				$('#techStack').text('Developed using JavaScript, Node.js, with data obtained from the Twitter Search API');		
+		}
 
 
 		console.log('JQuery ready....');
@@ -80,6 +91,9 @@ $(document).ready(function() {
 
 		// project 5 - weatherApp //
 		$('#portfolio5').hover(changeWeatherApp);
+
+		// project 6 - #Election2016 //
+		$('#portfolio5').hover(changeElection2016);
 
 });
 
